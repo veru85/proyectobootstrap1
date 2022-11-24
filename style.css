@@ -1,0 +1,29 @@
+/* Barra de navegacion */
+
+.navbar{
+    padding: 2rem;
+    background-color: rgb(255, 236, 183);
+}
+
+.navbar-collapse{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+/* Adaptable responsivo */
+@media screen and (max-width:767px){
+    .navbar-brand{
+        display: flex;
+        justify-content: right;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    .container-fluid{
+        padding: 0;
+    }
+}
