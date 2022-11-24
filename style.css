@@ -77,8 +77,15 @@ h3{
     }
 
     .hero-ppal{
-        padding: 2rem;
-        align-items: center;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    .hero h1{
+        font-size: 2rem;
+    }
+    .hero h2{
+        font-size: 1rem;
     }
 
     .sobremi{
