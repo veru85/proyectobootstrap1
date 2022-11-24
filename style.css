@@ -22,14 +22,13 @@ section{
 /* Seccion hero */
 
 .hero{
-    background-color: #f5f6f7;
     min-height: 450px;
     text-align: center;
 }
 
 h1{
     font-size: 3rem;
-    color: coral;
+    color: #F5874F;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -50,15 +49,50 @@ h2{
     
 }
 
+
+/* Sobre mi */
+
+.sobremi{
+    height: 450px;
+    background-color: #815AA4;
+    color: #ffffff;
+}
+
+h3{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sobremi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
 /* Adaptable responsivo */
+
 @media screen and (max-width:767px){
     .navbar-brand{
-        display: flex;
-        justify-content: right;
-        margin-left: 1rem;
-        margin-bottom: 1rem;
+        display: none;
+       
     }
-    .container-fluid{
-        padding: 0;
+
+    .hero-ppal{
+        padding: 2rem;
+        align-items: center;
     }
+
+    .sobremi{
+        padding: 1rem;
+        height: auto;
+    }
+    
+
+    
+    .sobremi{
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    
 }
